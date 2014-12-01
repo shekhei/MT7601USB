@@ -1,0 +1,10 @@
+make -C tools
+make[1]: Entering directory `/tmp/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913/tools'
+gcc -g bin2h.c -o bin2h
+make[1]: Leaving directory `/tmp/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913/tools'
+/tmp/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913/tools/bin2h
+cp -f os/linux/Makefile.6 /tmp/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913/os/linux/Makefile
+make -C /lib/modules/3.12.26-1.20140808git4ab8abb.rpfr20.armv6hl.bcm2708/build SUBDIRS=/tmp/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913/os/linux modules
+make[1]: Entering directory `/usr/src/kernels/3.12.26-1.20140808git4ab8abb.rpfr20.armv6hl.bcm2708'
+  CC [M]  /tmp/DPO_MT7601U_LinuxSTA_3.0.0.4_20130913/os/linux/../../os/linux/rt_linux.o
+make[1]: Leaving directory `/usr/src/kernels/3.12.26-1.20140808git4ab8abb.rpfr20.armv6hl.bcm2708'
